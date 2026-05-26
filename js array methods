@@ -1,0 +1,56 @@
+// array methods
+// map
+
+let nums =[1,2,3,4]
+let doubled = nums.map(function (num){
+    return num*2
+})
+console.log(doubled)
+
+
+//filter
+let nums=[1,2,3,4,5,6]
+let even=nums.filter(function(num){
+    return num %2==0
+})
+console.log(even)
+
+
+
+//find
+let nums=[1,2,3,4,5]
+let firstEvennums.find(function(num){
+    return num%2==0
+})
+console.log(firstfirstEven)
+
+
+//reduce()
+let nums=[1,2,3,4]
+let sum=nums.reduce(function (acc,num){
+    return acc + num
+},0)
+console.log(sum)
+
+//sum
+
+let nums =[1,2,3,4]
+let hasEven=nums.some(function(num){
+    return num%2==0
+})
+console.log(hasEven)
+
+//every
+
+let nums =[1,2,3,4]
+let hasEven=nums.every(function(num){
+    return num%2==0
+})
+console.log(hasEven)
+
+
+
+
+
+emp.age=23
+console.log()
